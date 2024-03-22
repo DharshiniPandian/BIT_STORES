@@ -1,5 +1,5 @@
 import React from 'react';
-import Img from '../../assets/logo.png';
+import Img from '../../assets/logo.jpeg';
 const Logo = () => {
     return (
         <div className="nav-logo">
