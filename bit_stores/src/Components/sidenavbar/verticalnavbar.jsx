@@ -78,7 +78,7 @@ const Sidebar = ({ children }) => {
                 }
                 {isOpen &&
                     <div className="bottom_section">
-                        <NavLink to="/settings" className="link" style={{ marginLeft: "10%", marginTop: "50%" }} activeClassName="active">
+                        <NavLink to="/settings" className="link" style={{ marginLeft: "10%", marginTop: "80%" }} activeClassName="active">
                             <div className="icon"><FaCog /></div>
                             <div className="link_text">Settings</div>
                         </NavLink>
