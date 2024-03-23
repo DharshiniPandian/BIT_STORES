@@ -23,11 +23,17 @@
   display: flex;
   align-items: center;
   gap: 10px;
+  margin-right: 5%;
 }
 
 .top-nav .search-container {
   display: flex; 
   align-items: center; 
+  gap: 10px;
+  margin-left: 20%;
+  flex-direction: row;
+  margin-bottom:1%;
+  position: absolute;
 }
 
 .top-nav input[type=text] {
@@ -35,34 +41,48 @@
   font-size: 14px; 
   border: 1px solid #ccc; 
   border-radius: 5px; 
-  margin-right: 5px; 
+  margin-right: 1px; 
+  
+  
 }
 
 .top-nav .search-container button {
-  padding: 6px 20px;
+  padding: 6px 5px;
   background: #ffffff;
   border: none;
   cursor: pointer;
+  margin-left: 1%;
+  position: absolute;
 }
 
 .top-nav .search-container button:hover {
   background: #fcfcfc;
+  color: #000000;
 }
 
 a {
   color: #7a7878;
 }
+.profile{
+  float: right;
 
-.notification-icon,
-.profile-1 {
+}
+.notification-icon
+ {
   margin: 0 5px; 
-  margin-left: 40%;
+  margin-left: 90%;
+  position: absolute;
+
+  
 }
 
 .profile img {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  position: absolute;
+  margin-left: 35%;
+ bottom: 25%;
 }
 
 .nav-logo-1 img {
